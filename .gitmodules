@@ -1,3 +1,6 @@
 [submodule "database"]
 	path = database
 	url = https://github.com/BjarneMatz/json-database.git
+[submodule "Logger"]
+	path = Logger
+	url = https://github.com/BjarneMatz/Logger.git
