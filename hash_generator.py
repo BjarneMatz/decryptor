@@ -44,7 +44,6 @@ def split_work_for_multiprocessing(wordlist: list, processes: int):
             chunk = wordlist[i * chunk_size:(i + 1) * chunk_size] #every other chunk gets chunk_size words
         chunks.append(chunk)
     log(f"Split work for {processes} processes", 3)
-    log(f"Chunks: {chunks}", 4)
     log(f"Chunk size: {chunk_size}", 4) 
     return chunks
 
